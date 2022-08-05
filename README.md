@@ -115,17 +115,17 @@ Latihan
 4. Masuk ke *terminal / console* dan kerjakan beberapa perintah berikut melalui *command line / shell*: 
     * silahkan coba beberapa perintah di [Guru99](https://www.guru99.com/must-know-linux-commands.html) dan [E-Guide - PDF](https://cse.yeditepe.edu.tr/~ayildiz/attachments/linux_commands_eguide.pdf), minimal 10 perintah.
     * tulis hasil dari masing-masing perintah tersebut ke dalam file `cmdline.txt` (gunakan copy paste dari shell)
-5. Untuk latihan ini, letakkan hasil pada direktori `praxis-academy/kemampuan-dasar-1/latihan/shellscripts`: silahkan coba [30 contoh shell script](https://linuxhint.com/30_bash_script_examples/).
+5. Untuk latihan ini, letakkan hasil pada direktori `Coding-PGT/kemampuan-dasar-1/latihan/shellscripts`: silahkan coba [30 contoh shell script](https://linuxhint.com/30_bash_script_examples/).
 
 **Untuk Pemakai macOS**
 
 1. Kerjakan berbagai hal yang ada di artikel tentang [beberapa utilities di macOS](https://www.mitchchn.me/2014/os-x-terminal/) dan [artikel ini](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/). Tulis hasil semua yang anda coba pada file `cmdline.txt`.
-2. Untuk latihan ini, letakkan hasil pada direktori `praxis-academy/kemampuan-dasar-1/latihan/shellscripts`: silahkan coba [30 contoh shell script](https://linuxhint.com/30_bash_script_examples/). Jika anda menggunakan Zsh, silahkan [kerjakan materi ini](https://www.linuxtoday.com/blog/writing-scripts-for-zsh.html).
+2. Untuk latihan ini, letakkan hasil pada direktori `Coding-PGT/kemampuan-dasar-1/latihan/shellscripts`: silahkan coba [30 contoh shell script](https://linuxhint.com/30_bash_script_examples/). Jika anda menggunakan Zsh, silahkan [kerjakan materi ini](https://www.linuxtoday.com/blog/writing-scripts-for-zsh.html).
 
 **Untuk Pemakai Windows**
 
 1. Kerjakan minimal 20 command line yang ada di [daftar command line di Windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands). Tulis hasil semua yang anda coba pada file `cmdline.txt`.
-2. Untuk latihan ini, letakkan hasil pada direktori `praxis-academy\kemampuan-dasar-1\latihan\powershellscripts`. Kerjakan contoh [Powershell script](https://www.pdq.com/blog/writing-your-first-powershell-script/), juga di [artikel ini](https://www.howtogeek.com/141495/geek-school-writing-your-first-full-powershell-script/), [artikel ini](https://www.guru99.com/powershell-tutorial.html), dan [batch file dan Powershell script](https://www.howtogeek.com/204088/how-to-use-a-batch-file-to-make-powershell-scripts-easier-to-run/). 
+2. Untuk latihan ini, letakkan hasil pada direktori `Coding-PGT\kemampuan-dasar-1\latihan\powershellscripts`. Kerjakan contoh [Powershell script](https://www.pdq.com/blog/writing-your-first-powershell-script/), juga di [artikel ini](https://www.howtogeek.com/141495/geek-school-writing-your-first-full-powershell-script/), [artikel ini](https://www.guru99.com/powershell-tutorial.html), dan [batch file dan Powershell script](https://www.howtogeek.com/204088/how-to-use-a-batch-file-to-make-powershell-scripts-easier-to-run/). 
 
 ```
 Kasus
@@ -141,7 +141,7 @@ Referensi:
 
 Selesaikan kasus-kasus berikut.
 
-**Catatan**: semua hasil pada latihan ini disimpan pada direktori `Coding-PGT/kemampuan-dasar-1/nomorpeserta` (jika menggunakan Windows, pemisah antar direktori adalah \, jadi pada Windows hasilnya akan disimpan di `Coding-PGT/kemampuan-dasar-1/nomorpeserta`. Anda bebas menentukan lokasi tempat direktori `Coding-PGT` berada.
+**Catatan**: semua hasil pada latihan ini disimpan pada direktori `Coding-PGT/kemampuan-dasar-1/kasus` (jika menggunakan Windows, pemisah antar direktori adalah \, jadi pada Windows hasilnya akan disimpan di `Coding-PGT/kemampuan-dasar-1/kasus`. Anda bebas menentukan lokasi tempat direktori `Coding-PGT` berada.
 
 1. Buat shell script / powershell sript / batch file `cari-java.sh` (untuk shell script - macOS dan Linux) atau `cari-java.bat` (untuk Windows). Tujuan dari script tersebut adalah untuk melihat daftar file pada suatu direktori (termasuk direktori anak-anaknya) dan jika terdapat file dengan ekstensi `.java` - tampilkan tulisan "`Ada file Java pada direktori {nama direktori}`". Hasil eksekusi (di Linux, lainnya menyesuaikan):
 
@@ -198,13 +198,13 @@ Materi dan Penjelasan
 
 **Persiapan**
 
-Buat repo di account Github anda dengan nama `praxis-academy`. Setelah itu inisialisasi repo tersebut di komputer lokal anda. Repo ini yang akan menjadi hasil dari kemampuan dasar anda. URL dari repo anda ini seharusnya adalah `https://github.com/username/praxis-academy`:
+Buat repo di account Github anda dengan nama `Coding-PGT`. Setelah itu inisialisasi repo tersebut di komputer lokal anda. Repo ini yang akan menjadi hasil dari kemampuan dasar anda. URL dari repo anda ini seharusnya adalah `https://github.com/username/Coding-PGT`:
 
 1. Kerjakan [petunjuk pembuatan repo dari Github ini](https://help.github.com/en/articles/create-a-repo). Cukup kerjakan langkah 1 - 6 saja, setelah itu berhenti pada saat repo telah dibuat. Untuk langkah 5, jangan mengaktifkan *checkbox* **Initialize this repository with a README**. Untuk selanjutnya, ini akan kita sebut sebagai **repo GitHub**.
 2. Di komputer lokal, kerjakan (lokasi direktori bebas, asal hak akses memenuhi - bisa create dir,
    file, dan seterusnya - lokasi yang anda pilih akan disebut sebagai $LOKASI):
-    * git clone https://github.com/username/praxis-academy
-    * untuk selanjutnya, lokasi direktori $LOKASI/praxis-academy ini kita sebut sebagai **repo lokal**.
+    * git clone https://github.com/username/Coding-PGT
+    * untuk selanjutnya, lokasi direktori $LOKASI/Coding-PGT ini kita sebut sebagai **repo lokal**.
 3. Latihan dan kasus berikut seharusnya dikerjakan di repo lokal dan hasilnya di-push ke repo
    Github.
 
@@ -236,7 +236,7 @@ kemampuan-dasar/
             └── sleep-example.sh
 ```
 
-2. Untuk praktik berikut ini, kerjakan semuanya di dalam direktori `kemampuan-dasar-2` di bawah `kemampuan-dasar`. Cara mengerjakannya adalah dengan mempraktikkan dan kemudian meng-capture / meng-copy hasil dari praktik tersebut ke dalam file [markdown](https://guides.github.com/features/mastering-markdown/). Jika di praktik tersebut diminta untuk membuat repo, buatlah juga di account anda, tidak perlu berada dalam repo praxis-academy. Buat file `README.md` yang berisi nama-nama repo di account GitHub anda yang berhubungan dengan praktik-praktik tersebut. Praktik-praktik yang harus dikerjakan adalah: 
+2. Untuk praktik berikut ini, kerjakan semuanya di dalam direktori `kemampuan-dasar-2` di bawah `kemampuan-dasar`. Cara mengerjakannya adalah dengan mempraktikkan dan kemudian meng-capture / meng-copy hasil dari praktik tersebut ke dalam file [markdown](https://guides.github.com/features/mastering-markdown/). Jika di praktik tersebut diminta untuk membuat repo, buatlah juga di account anda, tidak perlu berada dalam repo Coding-PGT. Buat file `README.md` yang berisi nama-nama repo di account GitHub anda yang berhubungan dengan praktik-praktik tersebut. Praktik-praktik yang harus dikerjakan adalah: 
     * [Getting Started](https://dev.acquia.com/blog/getting-started-collaborative-development-git). Nama file hasil untuk praktik ini adalah `praktik-1.md`.
     * [Team Collaboration with GitHub](https://code.tutsplus.com/articles/team-collaboration-with-github--net-29876). Nama file hasil untuk praktik ini adalah `praktik-2.md`.
 
