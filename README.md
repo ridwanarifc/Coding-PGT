@@ -237,7 +237,7 @@ kemampuan-dasar/
 ```
 
 2. Untuk praktik berikut ini, kerjakan semuanya di dalam direktori `kemampuan-dasar-2` di bawah `kemampuan-dasar`. Cara mengerjakannya adalah dengan mempraktikkan dan kemudian meng-capture / meng-copy hasil dari praktik tersebut ke dalam file [markdown](https://guides.github.com/features/mastering-markdown/). Jika di praktik tersebut diminta untuk membuat repo, buatlah juga di account anda, tidak perlu berada dalam repo Coding-PGT. Buat file `README.md` yang berisi nama-nama repo di account GitHub anda yang berhubungan dengan praktik-praktik tersebut. Praktik-praktik yang harus dikerjakan adalah: 
-    * [Getting Started](https://dev.acquia.com/blog/getting-started-collaborative-development-git). Nama file hasil untuk praktik ini adalah `praktik-1.md`.
+    * [Getting Started](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67). Nama file hasil untuk praktik ini adalah `praktik-1.md`.
     * [Team Collaboration with GitHub](https://code.tutsplus.com/articles/team-collaboration-with-github--net-29876). Nama file hasil untuk praktik ini adalah `praktik-2.md`.
 
 3. Buat direktori `wawasan` pada direktori `kemampuan-dasar`. Buatlah rangkuman dari "Ruang Lingkup Pengembangan Sofwtare - Materi dan Penjelasan - point 1 sampa 6" di atas (awal dokumen ini). Tuliskan hasil rangkuman anda pada file `README.md`, letakkan di direktori `wawasan` tersebut. Yang anda kerjakan adalah merangkum, bukan menterjemahkan. Pahami esensinya, setelah itu tuliskan secara ringkas.
